@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    /* font-size: 16px; */
+    position: relative;
+    font-weight: 400;
+    line-height: 1.625em;
+}
+
+.wrapper {
+    width: 100%;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #39b3c7;
+    height: 70px;
+
+}
+
+.logo {
+    float: left;
+    vertical-align: middle;
+}
+
+nav {
+    float: right;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    
+}
+
+.banner {
+    background-image: url(header.jpg);
+    height: 92vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-contents p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    
+    text-align: center;
+}
+
+.link-box h3 {
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+.form-box {
+    background: #fff;
+    max-width: 556px;
+    padding: 5px 0px 5px 5px;
+    margin: 0 auto;
+}
+
+input {
+
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+}
+
+.link-box {
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+.section3{
+    height: 600px;
+    padding: 100px 0;
+}
+
+.section3-left-col, .section3-right-col{
+    width: 50%;
+    float: left;
+}
+
+.section3-right-col{
+    margin-top: 180px;
+    padding: 80px;
+}
+
+.section3-right-col, h2, p{
+    margin-bottom: 20px;
+    
+}
+
+.section3-right-col h2{
+    font-size: 38px;
+    width:350px ;
+}
+
+.section3-right-col p {
+    color: black;
+    text-align: left;
+}
+
+button{
+    background: #3279bb;
+    margin-top: 30px;
+    color: white;
+    line-height: 40px;
+    padding: 0px 32px;
+    border-radius: 5px;
+}
+
+.section4{
+    height: 700px;
+    padding: 100px 0;
+    background: #f1f9ff;
+    margin-top: 200px;
+}
+
+.section4-left-col, .section4-right-col {
+    width: 50%;
+    float: left;
+    
+}
+
+.section4-right-col{
+    display: inline-flex;
+    width: 440px;
+    margin-left: 56px;
+    background: #ffffff;
+    padding: 40px;
+}
+
+.section4-left-col {
+    margin-left: 25px;
+    padding-top: 185px;
+    
+}
+
+.section4-left-col h2{
+    font-size: 38px;
+    width:350px ;
+    
+}
+
+.section4-left-col p {
+    color: black;
+    text-align: left;
+}
+
+.course-list li {
+    background: #cadde9;
+    margin-bottom: 15px;
+}
+
+.course-list a {
+    display: block;
+    color: #777777;
+    padding: 17px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    outline: 0;
+    background-color: #f1f9ff;
+    margin: 10px;
+    
+}
+
+.section5 {
+    height: 600px;
+    padding: 70px 0;
+    margin-top: 0px;
+    margin-bottom: 200px;
+}
+
+.row {
+    width: 100%;
+}
+.features-section-container{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.section-title h1 {
+    margin-bottom: 20px;
+    font-size: 42px;
+    color: #000;
+    padding: 20px;
+    
+}
+
+p {
+    color: #777777;
+    
+}
+
+.feature-area1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 40px;
+    margin-bottom: 40px;
+    /* color: #777777;
+    font-size: 16px;
+    margin: 20px;
+    height: 100px;
+    padding: 30px 20px;
+    text-align: center; 
+    width: 100%; */
+    
+}
+
+.feature-area2 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 40px;
+    /* color: #777777;
+    font-size: 16px;
+    margin: 20px;
+    height: 300px;
+    padding: 30px 20px;
+    text-align: center;
+    width: 100%; */
+    
+}
+
+.feature-area1 p {
+    padding: 40px;
+}
+
+.feature-area2 p {
+    padding: 40px;
+}
+
+.feature-items{
+    margin: 0 20px;
+    padding: 40px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #f1f9ff;
+    /* padding: 0; */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.feature-items h3{
+    font-weight: 600;
+}
+
+.feature-items img{
+    width: 40px;
+}
+
+.feature-items p{
+    padding: 0;
+    text-align: left;
+}
+
+.section6 {
+    height: 700px;
+    padding: 100px 0;
+    background-color: #f1f9ff;
+    margin-top: 220px;
+    
+}
+
+.faculty-member{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 28px;
+}
+
+.faculty-member p {
+    font-size: 16px;
+}
+
+.faculty-member-information {
+    width: 25%;
+    float: left;
+    margin: 0 0;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.faculty-member-information h4 {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    display: inline;
+    margin-top: 20px;
+}
+
+.section7 {
+    height: 600px;
+    padding: 100px;
+    margin-top: 200px;
+}
+
+.slider h5 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.column {
+  display: inline;
+    
+}
+
+.images {
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+   width: 100%;
+}
+footer{
+    background: #283367;
+    padding: 50px 0;
+    
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
+.footer-heading, h4{
+    display: inline-block;
+    width: 18%;
+    padding: 20px 0;
+    color: #f5f0f0f1;
+    
+}
+
+.footer-heading ul li {
+    padding: 10px;
+    list-style: none;
+    color: #777777;
+}
+
+.footer-heading a {
+    color: #777777;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+
+.footer-headings {
+    width: 28%;
+    color: #f5f0f0f1;
+    padding-top: 20px;
+}
+
+.footer-headings p{
+    text-align: left;
+}
+
+.footer-headings input{
+    margin: 0;
+}
+
+.courses-section-1 h1{
+    color: #000;
+}
+
+.page-section-1 h1{
+    color: #000;
+}
+
+.blog-section-1 h1{
+    color: #000;
+}
+
+.contact-section-1 h1{
+    color: #000;
+}
+
+.about-section-1 h1{
+    color: #000;
+}
